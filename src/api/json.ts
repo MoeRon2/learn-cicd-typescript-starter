@@ -35,3 +35,9 @@ function errStringFromError(err: unknown): string {
   }
   return "An unknown error occurred";
 }
+
+
+function unused() {
+  // this function does nothing
+  // and is called nowhere
+}
